@@ -8,7 +8,7 @@ Timber.io.NLog is a NLog target to push your logs to [Timber](https://timber.io)
 To get an API key, just create a new app. Under *Language Type* and *Platform Type*, select _Other_. You will now get a page that contains your API key.
 
 ## Install package
-Run the following command in your project root: `dotnet add package Timber.io.NLog`
+Run the following command from the Package Manager Console: `PM> Install-Package Timber.io.NLog`
 
 ## Configure a target in NLog.config
 ```xml
